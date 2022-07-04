@@ -7,6 +7,10 @@ body {
     color: tomato;
 }
 
+h1 {
+    font-size: 50px;
+}
+
 .top-bar {
     display: flex;
     background-image: url(images/top-banner.png);
@@ -19,4 +23,9 @@ a {
 
 .half {
     width: 50%;
+    padding-left: 5%;
+}
+
+.half img {
+    width: 80%;
 }
