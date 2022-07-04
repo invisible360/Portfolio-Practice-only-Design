@@ -62,7 +62,7 @@ h2 {
     background-image: url(images/exp-bg.png);
     background-position: left;
     background-repeat: no-repeat;
-    background-size: 6%;
+    background-size: 7%;
     margin-bottom: 100px;
 }
 
@@ -70,5 +70,15 @@ h2 {
     width: 40%;
     margin-left: 5%;
     padding: 20px;
+    /* box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
     box-shadow: 5px 5px 10px 5px #888888;
+    border-radius: 10px;
+}
+
+#full-border {
+    border-left: 10px solid tomato;
+}
+
+#baby-border {
+    border-left: 10px solid blue;
 }
