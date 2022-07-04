@@ -17,6 +17,7 @@ h1 {
     width: 100%;
     background-repeat: no-repeat;
     margin-bottom: 50px;
+    background-size: 100%;
 }
 
 .half {
@@ -43,4 +44,5 @@ h1 {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right bottom;
+    background-size: 8%;
 }
