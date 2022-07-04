@@ -15,10 +15,8 @@ h1 {
     display: flex;
     background-image: url(images/top-banner.png);
     width: 100%;
-}
-
-a {
-    text-decoration: none;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
 }
 
 .half {
@@ -27,5 +25,22 @@ a {
 }
 
 .half img {
-    width: 80%;
+    width: 85%;
+    margin-top: 40px;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 50px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.middle-bar {
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
