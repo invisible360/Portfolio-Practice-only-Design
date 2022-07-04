@@ -1,3 +1,22 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.orange {
+    color: tomato;
+}
+
+.top-bar {
+    display: flex;
+    background-image: url(images/top-banner.png);
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.half {
+    width: 50%;
 }
